@@ -18,6 +18,7 @@ RUN --network=none \
     sed -i 's/CGO_ENABLED=0/CGO_ENABLED=1/g' Makefile \
     && make build
 
+# ======================================= #
 
 FROM alpine
 ARG UID
