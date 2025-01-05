@@ -6,7 +6,7 @@
 
 - Drop-in replacement for the [official image](https://github.com/oauth2-proxy/oauth2-proxy).
 - Based on the latest [Alpine](https://alpinelinux.org/) containers.
-- Unprivileged image: you should check your volumes' permissions (eg `/data`), default UID/GID is 700000.
+- Unprivileged image: you should check your volumes' permissions (eg `/data`), default UID/GID is 200000.
 - Backported dependency bumps for vulnerability fixes.
 
 ### Current backports
