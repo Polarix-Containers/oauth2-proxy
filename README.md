@@ -19,5 +19,5 @@
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇
-- Gitea is under the MIT license. Copyright to Gitea belongs to the OAuth2 Proxy project.
+- OAuth2 Proxy is under the MIT license. Copyright to OAuth2 Proxy belongs to the OAuth2 Proxy project.
 - Any image built by Polarix Containers is provided under the combination of license terms resulting from the use of individual packages.
