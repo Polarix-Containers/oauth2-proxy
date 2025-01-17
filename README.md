@@ -11,11 +11,7 @@
 
 ### Current backports
 
-| Go Package                        | Change                  | Link                                                   |
-| --------------------------------- | ----------------------- | ------------------------------------------------------ |
-| github.com/go-jose/go-jose/v3     | `v3.0.1` -> `v3.0.3`    | https://github.com/oauth2-proxy/oauth2-proxy/pull/2831 |
-| golang.org/x/crypto               | `v0.29.0` -> `v0.31.0`  | https://github.com/oauth2-proxy/oauth2-proxy/pull/2884 |
-| golang.org/x/net                  | `v0.31.0` -> `v0.33.0`  | https://github.com/oauth2-proxy/oauth2-proxy/pull/2886 |
+There is no current backport for the latest release.
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇

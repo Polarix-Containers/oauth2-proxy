@@ -1,4 +1,4 @@
-ARG VERSION=7.7.1
+ARG VERSION=7.8.1
 ARG UID=200000
 ARG GID=200000
 
@@ -10,9 +10,6 @@ RUN apk -U upgrade \
     && rm -rf /var/cache/apk/*
 
 ADD https://github.com/oauth2-proxy/oauth2-proxy.git#v${VERSION} .
-
-RUN go get github.com/go-jose/go-jose/v3@v3.0.3 golang.org/x/crypto@v0.31.0 golang.org/x/net@v0.33.0 \
-    && go mod download
     
 RUN --network=none \
     sed -i 's/CGO_ENABLED=0/CGO_ENABLED=1/g' Makefile \
