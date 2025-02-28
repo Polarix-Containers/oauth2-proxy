@@ -11,7 +11,7 @@ RUN apk -U upgrade \
 
 ADD https://github.com/oauth2-proxy/oauth2-proxy.git#v${VERSION} .
 
-RUN go get github.com/go-jose/go-jose/v3@v3.0.4 github.com/go-jose/go-jose/v3@v4.0.5 \
+RUN go get github.com/go-jose/go-jose/v3@v3.0.4 github.com/go-jose/go-jose/v4@v4.0.5 \
     && go mod download
     
 RUN --network=none \
