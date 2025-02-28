@@ -11,7 +11,8 @@ RUN apk -U upgrade \
 
 ADD https://github.com/oauth2-proxy/oauth2-proxy.git#v${VERSION} .
 
-RUN go mod download
+RUN go get github.com/go-jose/go-jose/v3@v3.0.4 github.com/go-jose/go-jose/v3@v4.0.5 \
+    && go mod download
     
 RUN --network=none \
     sed -i 's/CGO_ENABLED=0/CGO_ENABLED=1/g' Makefile \

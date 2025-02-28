@@ -11,7 +11,10 @@
 
 ### Current backports
 
-There is no current backport for the latest release.
+| Go Package                        | Change                  | Link                                                   |
+| --------------------------------- | ----------------------- | ------------------------------------------------------ |
+| github.com/go-jose/go-jose/v3     | `v3.0.3` -> `v3.0.4`    | https://github.com/oauth2-proxy/oauth2-proxy/pull/2974 |
+| github.com/go-jose/go-jose/v4     | `v4.0.4` -> `v4.0.5`    | https://github.com/wolfi-dev/os/commit/99b8f41a100c057c84917faaa261eaee809c2fd6 |
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇
