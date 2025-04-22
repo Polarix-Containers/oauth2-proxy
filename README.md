@@ -11,7 +11,9 @@
 
 ### Current backports
 
-There is no current backport for the latest release.
+| Go Package                        | Change                  | Link                                                    |
+| --------------------------------- | ----------------------- | ------------------------------------------------------- |
+| golang.org/x/net                  | `v0.37.0` -> `v0.38.0`  | https://github.com/oauth2-proxy/oauth2-proxy/pull/30354 |
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇
