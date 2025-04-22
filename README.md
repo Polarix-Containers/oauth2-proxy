@@ -13,7 +13,7 @@
 
 | Go Package                        | Change                  | Link                                                    |
 | --------------------------------- | ----------------------- | ------------------------------------------------------- |
-| golang.org/x/net                  | `v0.37.0` -> `v0.38.0`  | https://github.com/oauth2-proxy/oauth2-proxy/pull/30354 |
+| golang.org/x/net                  | `v0.37.0` -> `v0.38.0`  | https://github.com/oauth2-proxy/oauth2-proxy/pull/3035  |
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇
