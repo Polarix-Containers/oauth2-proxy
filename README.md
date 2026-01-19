@@ -11,9 +11,7 @@
 
 ### Current backports
 
-| Go Package                        | Change                  | Link                                                   |
-| --------------------------------- | ----------------------- | ------------------------------------------------------ |
-| golang.org/x/crypto@v0.45.0       | `v0.40.0` -> `v0.45.0`  | https://github.com/advisories/GHSA-j5w8-q4qc-rx2x      |
+There is no current backport for the latest release.
 
 ### Licensing
 - The code in this repository is licensed under the Apache license. 😇
